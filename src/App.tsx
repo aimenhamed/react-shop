@@ -38,7 +38,22 @@ const App = () => {
   };
     
 
-  const handleAddToCart = (clickedItem: CartItemType) => null;
+  const handleAddToCart = (clickedItem: CartItemType) => {
+    setCartItems(prev => {
+      // Already added to cart
+      const isItemInCart = prev.find(item => item.id === clickedItem.id)
+
+      if (isItemInCart) {
+        return prev.map(item => (
+          item.id === clickedItem.id
+            ? { ...item, amount: item.amount + 1 }
+            : item
+        ))
+      }
+      // Not in cart yet
+      return [...prev, { ...clickedItem, amount:1 }];
+    });
+  };
 
   const handleRemoveFromCart = () => null;
 
