@@ -1,3 +1,9 @@
+# Shopping Page with Cart using React
+
+<img width="1440" alt="Screen Shot 2021-07-08 at 9 24 04 am" src="https://user-images.githubusercontent.com/66828989/124840409-42171c80-dfce-11eb-867c-45afeb2290c0.png">
+
+<img width="1440" alt="Screen Shot 2021-07-08 at 9 24 28 am" src="https://user-images.githubusercontent.com/66828989/124840432-4f340b80-dfce-11eb-810a-2ba6cadef922.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
